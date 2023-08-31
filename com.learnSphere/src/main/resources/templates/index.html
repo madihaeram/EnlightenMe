@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Enlighten Me</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <div id="logo">
+            <!-- Logo goes here. -->
+            <img th:src="@{/images/logo.jpg}" height="100px" width="100px">
+        </div>
+        <p style=color:white>Enlighten Me is the best learning platform...</p>
+        <div class="tabs">
+            <a th:href="@{/login}" class="button">Login</a>
+            <a th:href="@{/register}" class="button">Register</a>
+        </div>
+    </div>
+</body>
+</html>
